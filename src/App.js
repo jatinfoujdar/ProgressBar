@@ -12,7 +12,7 @@ const App = () => {
     const progressPercentage = played * 100;
     setProgress(progressPercentage);
 
-    // Check if video is fully played
+
     if (progressPercentage === 100) {
       setTicked(true);
     }
